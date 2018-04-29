@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkacground"
+    tools:context="com.example.davenliu.beggarsbgone.FInd">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:textSize="90px"
+        android:textColor="@color/colorTopic"
+        android:textAlignment="center"
+        android:text="@string/topicFind" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130px"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0px"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/Cloths"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                android:onClick="moveFind"
+                android:background="@color/colorClothes"
+                app:srcCompat="@mipmap/ic_clothes"
+                />
+
+            <ImageButton
+                android:id="@+id/Water"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="120px"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                android:onClick="moveFind"
+                android:background="@color/colorWater"
+                app:srcCompat="@mipmap/ic_water" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Cloths_"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="100px"
+                android:text="@string/Clothes"
+                android:textSize="20dp"
+                android:textColor="@color/colorText"
+                android:padding="0dp"
+                android:onClick="moveFind"
+                app:srcCompat="@mipmap/ic_clothes" />
+
+            <TextView
+                android:id="@+id/Water_"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="180px"
+                android:text="@string/Water"
+                android:textSize="20dp"
+                android:textColor="@color/colorText"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                android:onClick="moveFind"
+                app:srcCompat="@mipmap/ic_water" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0px"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/Toiletries"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="250px"
+                android:onClick="moveFind"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                android:background="@color/colorToiletrie"
+                app:srcCompat="@mipmap/ic_toiletries" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0px"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/Shoes_"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="110px"
+                android:text="@string/Shoes"
+                android:textSize="20dp"
+                android:textColor="@color/colorText"
+                android:onClick="moveFind"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                app:srcCompat="@mipmap/ic_toiletries" />
+            <TextView
+                android:id="@+id/Toiletries_"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="0px"
+                android:text="@string/Toiletries"
+                android:textSize="20dp"
+                android:textColor="@color/colorText"
+                android:onClick="moveFind"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                app:srcCompat="@mipmap/ic_toiletries" />
+            <TextView
+                android:id="@+id/Food_"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30px"
+                android:text="@string/Food"
+                android:textSize="20dp"
+                android:textColor="@color/colorText"
+                android:onClick="moveFind"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                app:srcCompat="@mipmap/ic_toiletries" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/Shoes"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:onClick="moveFind"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:background="@color/colorShoes"
+                app:srcCompat="@mipmap/ic_shoes" />
+
+            <ImageButton
+                android:id="@+id/Food"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="120px"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                android:onClick="moveFind"
+                android:background="@color/colorFood"
+                app:srcCompat="@mipmap/ic_food" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkacground"
+    tools:context="com.example.davenliu.beggarsbgone.Report">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name"
+                />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:inputType="textPostalAddress"
+                android:text="Address"
+                />
+            <CheckBox
+                android:id="@+id/clothes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Clothes"
+                android:textSize="30dp"/>
+            <CheckBox
+                android:id="@+id/water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Water"
+                android:textSize="30dp" />
+            <CheckBox
+                android:id="@+id/toiletries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Toiletries"
+                android:textSize="30dp" />
+            <CheckBox
+                android:id="@+id/shoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Shoes"
+                android:textSize="30dp" />
+            <CheckBox
+                android:id="@+id/food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Food"
+                android:textSize="30dp" />
+            <Button
+                android:id="@+id/btnAddData"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Submit"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="100dp"
+                android:onClick="AddData"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

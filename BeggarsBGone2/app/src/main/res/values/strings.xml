@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Guilt B\' Gone</string>
+    <string name="topic">We are here</string>
+    <string name="topicFind">we are here2</string>
+    <string name="topicReport">we are here3</string>
+    <string name="Clothes">Clothes</string>
+    <string name="Toiletries">Toiletries</string>
+    <string name="Food">Food</string>
+    <string name="Shoes">Shoes</string>
+    <string name="Water">Water</string>
+    <string name="Submit">Submit</string>
+    <string name="SuccessSubmit">Thank You</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="drop">DROP IF TABLE EXISTS</string>
+</resources>

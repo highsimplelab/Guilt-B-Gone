@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkacground"
+    tools:context="com.example.davenliu.beggarsbgone.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:textColor="@color/colorTopic"
+        android:textAlignment="center"
+        android:text="@string/topic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/Report"
+                android:layout_width="220dp"
+                android:layout_height="100dp"
+                app:srcCompat="@mipmap/ic_report"
+                android:onClick="moveReport"
+                android:background="@color/colorReport"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                android:layout_marginLeft="80dp"/>
+
+            <ImageButton
+                android:id="@+id/Find"
+                android:layout_width="220dp"
+                android:layout_height="100dp"
+                app:srcCompat="@mipmap/ic_find"
+                android:background="@color/colorFind"
+                android:onClick="moveFind"
+                android:layout_marginTop="100dp"
+                android:scaleType="fitXY"
+                android:padding="0dp"
+                android:layout_marginLeft="80dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
